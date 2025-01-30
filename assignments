@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments Page</title>
+    <style>
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif   
+        }
+        body {
+            color: #01293a;
+        }
+        body {
+            margin: 10%;
+        }
+         img {
+            width: 80%;
+            max-width: 100%;
+            height: auto;
+         }
+    </style>
+    <style>
+        body {
+            background-color: #71adc7 !important;
+        } 
+    </style>
+</head>
+<body>
+<p>This is the page where I will post my assignments. Hi Lucas.</p>
+</body>
+</html>
