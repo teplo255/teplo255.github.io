@@ -12,7 +12,12 @@
             color: #01293a;
         }
         body {
-            margin: 5%;
+            margin: 8%;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            align-items: center;
         }
         .button {
             display: inline-block;
@@ -32,6 +37,16 @@
             border-radius: 5px;
             font-size: 24px;
         }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background-color: #71adc7;
+            padding: 20px;
+            width: 100%;
+        }
     </style>
     <style>
         body {
@@ -40,11 +55,15 @@
     </style>
 </head>
 <body>
+    <div class="button-container">
     <a href="index.html" class="button">Home</a>
+    </div>
 
-<p>This is the page where I will post my assignments. Hi Lucas.</p>
+    <div class="container">
+    <p>This is the page where I will post my assignments. Hi Lucas.</p>
 
-<a href="information-validity.html" class="button-assignments">Information Validity</a>
-<a href="your-turn.html" class="button-assignments">Your Turn</a>
+    <a href="information-validity.html" class="button-assignments">Information Validity</a>
+    <a href="your-turn.html" class="button-assignments">Your Turn</a>
+    </div>
 </body>
 </html>

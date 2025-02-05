@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Posts</title>
     <style>
         body {
             font-family:'Courier New', Courier, monospace  
@@ -12,17 +12,18 @@
             color: #01293a;
         }
         body {
-            margin: 5%;
+            margin: 8%;
         }
         .container {
-        width: 90%;
-        margin: 5%;
-        align-items: center;
+            width: 70%;
+            margin: 0 auto;
+            align-items: center;
         }
          img {
             width: 80%;
             max-width: 100%;
             height: auto;
+            align-items: center;
         }
          .button {
             display: inline-block;
@@ -33,6 +34,16 @@
             border-radius: 5px;
             font-size: 16px;
         }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background-color: #71adc7;
+            padding: 20px;
+            width: 100%;
+        }
     </style>
     <style>
         body {
@@ -41,12 +52,14 @@
     </style>
 </head>
 <body>
+    <div class="button-container">
     <a href="index.html" class="button">Home</a>
+    </div>
 
+    <div class="container">
     <h1>Snow</h1>
     <p> January 29th 2025<br>
     It snowed here in Florida so I got to see snow for the first time</p>
-    <div class="container">
     <img src="snow-road-night.JPG" alt="photo of snow on a street at night">
     </div>
 </body>

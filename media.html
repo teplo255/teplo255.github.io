@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignments Page</title>
+    <title>Media Page</title>
     <style>
         body {
             font-family:'Courier New', Courier, monospace
@@ -12,7 +12,12 @@
             color: #01293a;
         }
         body {
-            margin: 5%;
+            margin: 8%;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            align-items: center;
         }
         .button {
             display: inline-block;
@@ -32,10 +37,15 @@
             border-radius: 5px;
             font-size: 24px;
         }
-        .container {
-        width: 90%;
-        margin: 5%;
-        align-items: center;
+        .button-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background-color: #71adc7;
+            padding: 20px;
+            width: 100%;
         }
     </style>
     <style>
@@ -45,8 +55,11 @@
     </style>
 </head>
 <body>
+    <div class="button-container">
     <a href="index.html" class="button">Home</a>
+    </div>
 
+    <div class="container">
     <h1>Here's some of my favourite media</h1>
 
     <a href="https://www.youtube.com/watch?v=AMbU2X66mt4&list=PLzfog4SEfLrMunUyVYLg-L-_j803JSy82&index=18" target="_blank" class="button-youtube">Ride the Cyclone</a> 
@@ -54,5 +67,6 @@
     <a href="https://www.youtube.com/@jetlagthegame" target="_blank" class="button-youtube">Jet Lag: The Game</a>
 
     <a href="https://www.viz.com/shonenjump/chapters/one-piece" target="_blank" class="button-youtube">One Piece</a>
+    </div>
 </body>
 </html>

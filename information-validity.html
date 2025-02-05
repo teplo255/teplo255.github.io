@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Info Validity - Assignment</title>
     <style>
         body {
             font-family:'Courier New', Courier, monospace  
@@ -12,12 +12,12 @@
             color: #01293a;
         }
         body {
-            margin: 5%;
+            margin: 8%;
         }
         .container {
-        width: 80%;
-        margin: 5%;
-        align-items: center;
+            width: 70%;
+            margin: 0 auto;
+            align-items: center;
          }
          img {
             width: 80%;
@@ -33,6 +33,16 @@
             border-radius: 5px;
             font-size: 16px;
         }
+        .button-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            background-color: #71adc7;
+            padding: 20px;
+            width: 100%;
+        }
     </style>
     <style>
         body {
@@ -41,8 +51,11 @@
     </style>
 </head>
 <body>
+    <div class="button-container">
     <a href="index.html" class="button">Home</a>
+    </div>
 
+    <div class="container">
     <h1>Information Validity</h1>
     <p>How can I be sure that the information I’ve found online is real and reputable information and not a really convincing article from The Onion?</p>
 
@@ -100,5 +113,6 @@
 
     <h2>PS</h2>
     <p>Two of my favourite songs from my favourite album by my favourite band are in that google drive. Thank you for the Venom and You Know What They Do to Guys Like Us in Prison from Three Cheers for Sweet Revenge by My Chemical Romance. I recommend listening to them. Unfortunately the music is not organized the same in the google drive as it is in the original folder from my computer, so the albums are jumbled up.</p>
+    </div>
 </body>
 </html>
