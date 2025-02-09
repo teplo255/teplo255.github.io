@@ -54,6 +54,20 @@
         background-color: #01293a;
         margin: 20px 0;
         }
+        .gallery {
+            float: left;
+            gap: 10px;
+            width: 45%;
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
     </style>
     <style>
         body {
@@ -62,17 +76,44 @@
     </style>
 </head>
 <body>
+
     <div class="button-container">
     <a href="index.html" class="button">Home</a>
     </div>
 
     <div class="container">
+
+    <hr>
+    <h1>Puppies</h1>
+    <p>February 8th 2025</p>
+    <p>My sister has 2 golden retrievers names Kepler and Murphy (after Johannes Kepler and Murphy's law, of course) and I went to visit them today. Here are some comparison photos from when we got them 11 months ago to today.</p>
+
+        <div class="clearfix">
+            <div class="gallery">
+                <img src="murphy-baby.jpg">
+            </div>
+            <div class="gallery">
+                <img src="kepler-baby.jpg">
+            </div>
+            <div class="gallery">
+                <img src="murphy-marshmallow.jpeg">
+            </div>
+            <div class="gallery">
+                <img src="kepler-cuddle.jpeg">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
     <hr>
     <h1>Snow</h1>
-    <p> January 29th 2025<br>
-    It snowed here in Florida so I got to see snow for the first time</p>
+    <p> January 29th 2025</p>
+    <p>It snowed here in Florida, so I got to see snow for the first time.</p>
     <img class="center" src="snow-road-night.JPG" alt="photo of snow on a street at night">
     <hr>
+
     </div>
+
 </body>
 </html>
